@@ -3,11 +3,13 @@
 # include <string>
 # include <iostream>
 
-class Zombie {
+class Zombie
+{
 public:
     ~Zombie();
     void announce() const;
     void setName(std::string zombieName);
+    
 private:
     std::string name;
 };

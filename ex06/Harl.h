@@ -1,11 +1,12 @@
 #ifndef HARL_H
-# define HARL_H
+#define HARL_H
 # include <iostream>
 # include <string>
 
-class Harl {
+class Harl
+{
 public:
-  void complain(std::string level);
+    void complain(std::string level);
 
 private:
     void debug();

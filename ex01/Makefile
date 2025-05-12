@@ -18,3 +18,9 @@ fclean: clean
 	rm -rf $(NAME)
 
 re: fclean all
+
+run: all clean
+	@echo
+	@./$(NAME)
+	@echo
+	

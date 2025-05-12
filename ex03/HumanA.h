@@ -8,12 +8,14 @@
 // to modify it directly
 // instead of passing it by value
 
-class HumanA {
+class HumanA
+{
 public:
     HumanA(std::string name, Weapon &weapon);
     void attack();
+
 private:
-    Weapon &weapon;
+    Weapon& weapon;
     std::string name;
 };
 

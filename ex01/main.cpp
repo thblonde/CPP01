@@ -1,10 +1,9 @@
 #include "Zombie.h"
 
-int main(void)
+int main()
 {
-    Zombie *horde(0);
-
-    horde = zombieHorde(10, "horde");
+    Zombie *horde = zombieHorde(5, "horde");
+    
     delete[] horde;
     return 0;
 }

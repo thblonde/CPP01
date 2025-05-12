@@ -3,7 +3,8 @@
 # include <string>
 # include <iostream>
 
-class Zombie {
+class Zombie
+{
 public:
     ~Zombie();
     void announce() const;

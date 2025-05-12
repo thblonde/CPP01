@@ -7,6 +7,8 @@ int main(void)
     heap = newZombie("heap");
     heap->announce();
     delete heap;
+
     randomChump("stack");
+    
     return 0;
 }
