@@ -1,7 +1,6 @@
 #include "Harl.h"
 
-int main()
-{
+int main() {
     Harl instance;
 
     instance.complain("debug");

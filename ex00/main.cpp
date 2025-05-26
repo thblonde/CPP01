@@ -1,7 +1,6 @@
 #include "Zombie.h"
 
-int main(void)
-{
+int main(void) {
     Zombie *heap;
 
     heap = newZombie("heap");

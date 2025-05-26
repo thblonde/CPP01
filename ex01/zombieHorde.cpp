@@ -1,7 +1,6 @@
 #include "Zombie.h"
 
-Zombie *zombieHorde(int n, std::string name)
-{
+Zombie *zombieHorde(int n, std::string name) {
     Zombie *zombieHorde = new Zombie[n];
     
     while (--n >= 0)

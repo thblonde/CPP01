@@ -1,7 +1,6 @@
 #include "Zombie.h"
 
-int main()
-{
+int main() {
     Zombie *horde = zombieHorde(5, "horde");
     
     delete[] horde;
